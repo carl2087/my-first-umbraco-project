@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/carlellis/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/carlellis/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.14.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/carlellis/.nuget/packages/" />
+  </ItemGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers/3.3.4/buildTransitive/Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers/3.3.4/buildTransitive/Microsoft.CodeAnalysis.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.extensions.telemetry.abstractions/9.2.0/buildTransitive/net8.0/Microsoft.Extensions.Telemetry.Abstractions.props" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.telemetry.abstractions/9.2.0/buildTransitive/net8.0/Microsoft.Extensions.Telemetry.Abstractions.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.backoffice.management.api/15.1.8/buildTransitive/uSync.Backoffice.Management.Api.props" Condition="Exists('$(NuGetPackageRoot)usync.backoffice.management.api/15.1.8/buildTransitive/uSync.Backoffice.Management.Api.props')" />
+    <Import Project="$(NuGetPackageRoot)jumoo.processing.client/2.2.1/buildTransitive/jumoo.processing.client.props" Condition="Exists('$(NuGetPackageRoot)jumoo.processing.client/2.2.1/buildTransitive/jumoo.processing.client.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.snapshots.client/15.1.8/buildTransitive/uSync.Snapshots.Client.props" Condition="Exists('$(NuGetPackageRoot)usync.snapshots.client/15.1.8/buildTransitive/uSync.Snapshots.Client.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.publisher.client/15.1.8/buildTransitive/uSync.Publisher.Client.props" Condition="Exists('$(NuGetPackageRoot)usync.publisher.client/15.1.8/buildTransitive/uSync.Publisher.Client.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.publisher/15.1.8/buildTransitive/uSync.Publisher.props" Condition="Exists('$(NuGetPackageRoot)usync.publisher/15.1.8/buildTransitive/uSync.Publisher.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.expansions.client/15.1.8/buildTransitive/uSync.Expansions.Client.props" Condition="Exists('$(NuGetPackageRoot)usync.expansions.client/15.1.8/buildTransitive/uSync.Expansions.Client.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.exporter.client/15.1.8/buildTransitive/uSync.Exporter.Client.props" Condition="Exists('$(NuGetPackageRoot)usync.exporter.client/15.1.8/buildTransitive/uSync.Exporter.Client.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.backoffice.targets/15.1.8/buildTransitive/uSync.BackOffice.Targets.props" Condition="Exists('$(NuGetPackageRoot)usync.backoffice.targets/15.1.8/buildTransitive/uSync.BackOffice.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)usync.backoffice.management.client/15.1.8/buildTransitive/uSync.Backoffice.Management.Client.props" Condition="Exists('$(NuGetPackageRoot)usync.backoffice.management.client/15.1.8/buildTransitive/uSync.Backoffice.Management.Client.props')" />
+    <Import Project="$(NuGetPackageRoot)umbraco.cms.staticassets/15.4.1/buildTransitive/Umbraco.Cms.StaticAssets.props" Condition="Exists('$(NuGetPackageRoot)umbraco.cms.staticassets/15.4.1/buildTransitive/Umbraco.Cms.StaticAssets.props')" />
+    <Import Project="$(NuGetPackageRoot)umbraco.cms.targets/15.4.1/buildTransitive/Umbraco.Cms.Targets.props" Condition="Exists('$(NuGetPackageRoot)umbraco.cms.targets/15.4.1/buildTransitive/Umbraco.Cms.Targets.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.entityframeworkcore/9.0.2/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props" Condition="Exists('$(NuGetPackageRoot)microsoft.entityframeworkcore/9.0.2/buildTransitive/net8.0/Microsoft.EntityFrameworkCore.props')" />
+  </ImportGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">/Users/carlellis/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgLucene_Net Condition=" '$(PkgLucene_Net)' == '' ">/Users/carlellis/.nuget/packages/lucene.net/4.8.0-beta00017</PkgLucene_Net>
+    <PkgMicrosoft_Extensions_ApiDescription_Server Condition=" '$(PkgMicrosoft_Extensions_ApiDescription_Server)' == '' ">/Users/carlellis/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5</PkgMicrosoft_Extensions_ApiDescription_Server>
+  </PropertyGroup>
+</Project>
